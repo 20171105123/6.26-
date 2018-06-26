@@ -1,0 +1,20 @@
+//
+//  main.c
+//  6.26初始代码
+//
+//  Created by 鲁祥 on 2018/6/26.
+//  Copyright © 2018年 鲁祥. All rights reserved.
+//
+
+#include <stdio.h>
+
+int main(int argc, const char * argv[]) {
+    // insert code here...
+    printf("欢迎来到我的编程环境!\n");
+    int r;
+    int t;
+    int sum=0;
+    scanf("%d %d",&r,&t);
+    printf("%d+%d=%d",r,t,sum);
+    return 0;
+}
